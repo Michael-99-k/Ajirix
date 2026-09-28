@@ -39,7 +39,7 @@ const HeroSection = () => {
           <div className="col-md-6">
           <div>
             <img 
-            src="images/HeroSection.jpg" alt="Job application" 
+            src="images/HeroSection.png" alt="Job application" 
             style={{width: "100%", height: "350px", objectFit: "cover"}}
             className="rounded-4"/>
           </div>

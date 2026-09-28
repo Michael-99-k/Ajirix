@@ -108,7 +108,7 @@ const JobSection = () => {
           you need to. They are waiting for your skills.
         </p>
         {/*nest the job cards*/}
-        <JobCard allJobs = {jobs}/>
+        <JobCard allJobs = {jobs.filter(job=>job.description==="remote")}/>
       </div>
     </div>
   );
